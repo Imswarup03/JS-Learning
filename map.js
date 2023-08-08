@@ -15,3 +15,5 @@ const square= numbers.map((number)=>{
     return number**2
 })
 console.log(square)
+
+/// map will return an array of values after applying a given function on each element in an array

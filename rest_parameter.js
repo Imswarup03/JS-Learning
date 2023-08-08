@@ -24,6 +24,7 @@ const person={
 //     console.log(obj.lastName)
 // }
 // printDetails(person)
+// parameter destructuring
 
 // we can destructure the data from the parameter  using object destructuring
 function printDetails({firstName,lastName}){
