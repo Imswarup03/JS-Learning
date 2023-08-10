@@ -16,4 +16,4 @@ const square= numbers.map((number)=>{
 })
 console.log(square)
 
-/// map will return an array of values after applying a given function on each element in an array
+/// map will return a new array of values after applying a given function on each element in an array
