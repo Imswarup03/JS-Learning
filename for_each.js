@@ -39,6 +39,6 @@ const users =[
 users.forEach((user,index)=>{
     console.log(user.name)
 })
-
+// callback function doesn't return a value
  
 
