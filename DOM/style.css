@@ -1,0 +1,16 @@
+h1 {
+    font-style: italic;
+    background-color: aqua;
+    font-size: x-large;
+    color: red;
+}
+
+*{
+    background-color: rgb(245, 238, 230);
+}
+table {
+    border-radius: 2px;
+    border-color: blue;
+    border-style: solid 10px ridge;
+    border-inline-color: red;
+}
