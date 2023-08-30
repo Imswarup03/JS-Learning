@@ -23,7 +23,7 @@ console.log(numbers)
 //real time scenerio
 const products=[
     {name:'laptop',price: 119},
-    {name:"mobile", price :69 },
+    {name:"mobile", price :89},
     { name :"tv" , price :69}
 ]
 //price low to high
@@ -37,5 +37,5 @@ console.log(lowToHigh)
 const highToLow =products.slice(0).sort((a,b)=>{
     return b.price-a.price
 });
-console.log(lowToHigh)
+console.log(highToLow)
 

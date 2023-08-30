@@ -16,7 +16,7 @@ const userCart=[
     {product:1 , productType:"mobile",price:12000},
     {product:2, productType:"laptop",price:23000}]
 
-const user = userCart.reduce((totalPrice, currentProduct)=>{
+const user = userCart.reduce((totalPrice,currentProduct)=>{
     return totalPrice + currentProduct.price
 
 },0)
