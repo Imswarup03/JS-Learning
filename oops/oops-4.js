@@ -36,3 +36,5 @@ console.log(obj2);
 
 console.log(obj2.__proto__)// { key1: 'value1', key2: 'Value2' }
 // so JS will search the value in proto if it's not in parent object.
+
+

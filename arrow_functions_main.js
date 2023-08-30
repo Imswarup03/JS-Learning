@@ -1,3 +1,4 @@
+
 // arrow functions in object
 const user1 ={
     firstName:"Swarup",

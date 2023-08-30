@@ -16,3 +16,12 @@ const isOdd =numbers.filter((number)=>{
 console.log("odd",isOdd )
 
 
+let filtered= numbers.filter(function(value){
+    return value>=3;
+});
+console.log(filtered)
+
+// if we use arrow function and we have only one parameter then we can write it in one line
+
+let filtered1= numbers.filter((value)=>value>=4);
+console.log(filtered1);
